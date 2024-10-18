@@ -365,6 +365,7 @@ body{
     flex-direction: row;
     width: 1130px;
     height: 294px;
+    z-index: 1;
 }
 .content1_img{
     width: 565px;
@@ -409,6 +410,7 @@ body{
     width: 293px;
     height: 368px;
     margin-top: 622px;
+    z-index: 0;
 }
 .block6_content3{
     width: 859px;
@@ -520,13 +522,12 @@ body{
     .section{
         width: 960px;
         height: 4448px;
-        margin-left: 20%;
     }
     .block_1{
         width: 930px;
     }
     .vector_1{
-        opacity: 0%;
+        display: none;
     }
     .bg_img{
         object-fit: fill;
@@ -566,7 +567,7 @@ body{
         height: 176px;
         margin-left: 779px;
         color: white;
-        opacity: 0%;
+        overflow: hidden;
     }
 
     .block_4{
@@ -643,7 +644,8 @@ body{
         margin-left: 720px;
     }
     .vector_4{
-        opacity: 0%;
+        opacity: 100%;
+        z-index: 0;
     }
     .block6-bottom{
         margin-top: 20px;
@@ -663,6 +665,7 @@ body{
     }
     .block6_bottom1{
         width: 690px;
+        z-index: 1;
     }
     .block6_content4{
         width: 396px;
@@ -693,7 +696,6 @@ body{
         max-width: 1019px;
         min-width: 300px;
         height: 2445px;
-        align-items: baseline;
         display: flex;
     }
     .section{
@@ -1052,6 +1054,7 @@ body{
     }
     .vector_4{
         margin-top: 0;
+        display: none;
     }
     .vector_3{
         margin-left: 458px;
@@ -1059,7 +1062,179 @@ body{
         overflow: hidden;
     }
 }
-
+@media (max-width:699px){
+    .body{
+        max-width: 699px;
+        min-width: 300px;
+        margin-left: 20%;
+        height: 2434px;
+    }
+    .section{
+        width: 320px;
+        height: 2434px;
+    }
+    .block_1{
+        width: 290px;
+        height: 352px;
+    }
+    .main_text{
+        width: 223px;
+        height: 80px;
+        align-items: center;
+    }
+    .main_text-up{
+        width: 126px;
+        height: 24px;
+        font-size: 24px;
+        margin-left: 0px;
+    }
+    .main_text-down{
+        width: 227px;
+        height: 25px;
+    }
+    .block_2{
+        width: 274px;
+        height: 595px;
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .text_expirience{
+        width: 260px;
+        height: 372px;
+        margin-left: 14px;
+        margin-top: 0px;
+    }
+    .top_text{
+        width: 71px;
+        height: 32px;
+    }
+    .middle_text{
+        width: 95px;
+        height: 6px;
+    }
+    .bottom_text{
+        width: 260px;
+        height: 290px;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    .video{
+        width: 260px;
+        height: 274px;
+    }
+    .videobg{
+        width: 250px;
+        height: 184px;
+    }
+    .video_yt{
+        width: 260px;
+        height: 174px;
+        margin-left: 14px;
+        padding-top: 20px;
+    }
+    .video_yt1{
+        width: 260px;
+        height: 174px;
+    }
+    .block_3{
+        width: 290px;
+        height: 144px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .kovichki{
+        padding-left: 14px;
+        margin-bottom: 52px;
+    }
+    .blue_text{
+        width: 231px;
+        height: 80px;
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 6px;
+    }
+    .vector_2{
+        margin-left: 166px;
+        width: 124px;
+        height: 66px;
+        margin-top: 75px;
+        padding-top: 0px;
+        overflow: hidden;
+    }
+    .block_4{
+        margin-left: 0px;
+        width: 290px;
+        height: 275px;
+    }
+    .content{
+        width: 290px;
+        height: 275px;
+    }
+    .headline{
+        width: 290px;
+        height: 46px;
+        margin-left: 0px;
+        margin-top: 35px;
+        font-size: 18px;
+    }
+    .headline_text{
+        width: 260px;
+        height: 60px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 4px;
+    }
+    .button{
+        width: 197px;
+        height: 48px;
+    }
+    .button_onweb{
+        width: 197px;
+        height: 48px;
+        font-size: 18px;
+    }
+    .footer{
+        margin-left: 0px;
+        width: 290px;
+        height: 938px;
+    }
+    .block_5{
+        margin-top: 50px;
+    }
+    .swiper{
+        width: 290px;
+    }
+    .block_5-swiper{
+        width: 290px;
+    }
+    .swiper-slide{
+        margin-left: 15px!important;
+        margin-right: 15px!important;
+    }
+    .block_6{
+        width: 290px;
+        height: 410px;
+    }
+    .block6-mid{
+        width: 260px;
+        height: 40px;
+    }
+    .block6-bottom{
+        margin-top: 5px;
+    }
+    .block_6-swiper{
+        width: 290px;
+        margin-top: 5px;
+    }
+    .vector_3{
+        width: 107px;
+        height: 95px;
+        margin-left: 165px;
+        margin-top: 378px;
+    }
+}
 
 
 
